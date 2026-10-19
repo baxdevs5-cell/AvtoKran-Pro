@@ -1,0 +1,6 @@
+{
+  "name": "AVTOKRAN PRO",
+  "description": "Og‘ir yuklarni ko‘tarishda professional yechimlar. Zamonaviy avtokranlar katalogi, interaktiv taqqoslash, xizmat hisoblagichi va xavfsizlik testi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

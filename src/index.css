@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-charcoal: #15191E;
+    --color-yellow: #FFB800;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, .font-heading {
+    font-family: 'Barlow Condensed', 'Plus Jakarta Sans', system-ui, sans-serif;
+    letter-spacing: 0.02em;
+  }
+}
+
+/* Custom scrollbar for technical industrial feel */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #101418;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2A323D;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FFB800;
+}
